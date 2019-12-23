@@ -1,0 +1,30 @@
+body {
+  padding-top: 70px;
+}
+.form {
+  display: flex;
+  justify-content: center;
+  width: 250px;
+  align-items: center;
+  flex-direction: column;
+}
+.style-propertyes {
+  margin-bottom: 10px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  width: 100%;
+  padding: 5px;
+}
+.form input {
+  height: 30px;
+}
+.form textarea {
+  resize: none;
+}
+.form button {
+  width: 40%;
+  cursor: pointer;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid #000;
+}

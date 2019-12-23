@@ -1,0 +1,26 @@
+.acordeon {
+  display: flex;
+  width: 400px;
+  flex-direction: column;
+}
+.item {
+  width: 100%;
+}
+.item-name {
+  border: 1px solid #000;
+  border-radius: 10px;
+  padding-left: 10px;
+  margin-bottom: 1px;
+  cursor: pointer;
+  background-color: #0023ff;
+  color: #fff;
+}
+.item-description {
+  padding: 0 10px;
+}
+.active {
+  display: block;
+}
+.none {
+  display: none;
+}
