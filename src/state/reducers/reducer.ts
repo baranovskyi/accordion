@@ -6,14 +6,12 @@ const initialState = {
       item_name: "messi",
       item_description:
         "Lionel Messi is one of the most famous footballer in the world"
-    },
-    "item-1": {
-      item_name: "baranovskyi",
-      item_description:
-        "Lionel Messi is one of the most famous footballer in the world"
     }
   }
 };
+function setItemId(state: AppState) {
+  return `item-${Object.keys(state.items).length}`;
+}
 export default function reducer(
   state: AppState = initialState,
   action: AddItem
@@ -23,7 +21,11 @@ export default function reducer(
       return {
         ...state,
         items: {
-          ...state.items
+          ...state.items,
+          [setItemId(state)]: {
+            item_name: action.data.item_name,
+            item_description: action.data.item_description
+          }
         }
       };
     default:

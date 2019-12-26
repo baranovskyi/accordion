@@ -17,6 +17,7 @@
 }
 .item-description {
   padding: 0 10px;
+  width: 80%;
 }
 .active {
   display: block;

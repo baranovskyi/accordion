@@ -11,7 +11,7 @@ const App = () => {
       <Router>
         <ul className="navigation">
           <li>
-            <Link to="/">Acordeon</Link>
+            <Link to="/">Accordion</Link>
           </li>
           <li>
             <Link to="/addingItem">Add item</Link>

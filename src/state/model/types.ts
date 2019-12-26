@@ -1,5 +1,9 @@
 export type AddItem = {
   type: "ADD_ITEM";
+  data: {
+    item_name: string;
+    item_description: string;
+  };
 };
 export type AppState = {
   items: Item;
