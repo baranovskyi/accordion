@@ -15,3 +15,7 @@ export type ItemType = {
   item_name: string;
   item_description: string;
 };
+export type State = {
+  cardHeader: string;
+  cardBody: string;
+};

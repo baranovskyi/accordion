@@ -6,6 +6,11 @@ const initialState = {
       item_name: "messi",
       item_description:
         "Lionel Messi is one of the most famous footballer in the world"
+    },
+    "item-1": {
+      item_name: "messi",
+      item_description:
+        "Lionel Messi is one of the most famous footballer in the world"
     }
   }
 };
